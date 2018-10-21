@@ -1,0 +1,7 @@
+{
+  "name": "emerBag",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "ionic-angular"
+}

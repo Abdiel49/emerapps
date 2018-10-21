@@ -1,0 +1,46 @@
+<!--
+  Generated template for the HomePage page.
+
+  See http://ionicframework.com/docs/components/#navigation for more info on
+  Ionic pages and navigation.
+-->
+<ion-header>
+
+  <ion-navbar>
+    <ion-title>home</ion-title>
+  </ion-navbar>
+
+</ion-header>
+
+
+<ion-content padding>
+  <p>{{ ubicacion }}</p>
+  <ion-list>
+    <ion-card>
+    
+      <ion-list>
+        <button ion-item>
+          <ion-icon name="cart" item-start></ion-icon>
+          Shopping
+        </button>
+        <button ion-item>
+          <ion-icon name="cart" item-start></ion-icon>
+          Shopping
+        </button>
+      </ion-list>
+
+    </ion-card>
+  </ion-list>
+</ion-content>
+<ion-footer >
+  <ion-toolbar>
+    <ion-row>
+      <ion-col (click)="irListar()">
+        <h5 class="ct" text-center>Listar mochila</h5>
+      </ion-col>
+      <ion-col (click)="irMochila()">
+        <h5 class="ct" text-center>Ver mochila</h5>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-footer>
